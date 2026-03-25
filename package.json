@@ -1,0 +1,48 @@
+{
+  "name": "typography-automation",
+  "version": "1.0.0",
+  "description": "Shorts video generator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "remotion": "remotion preview src/remotion/index.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.46.0",
+    "@remotion/cli": "latest",
+    "@remotion/google-fonts": "latest",
+    "@remotion/player": "latest",
+    "@remotion/renderer": "latest",
+    "@types/uuid": "^10.0.0",
+    "axios": "^1.13.6",
+    "clsx": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "ffmpeg-static": "^5.2.0",
+    "form-data": "^4.0.5",
+    "groq-sdk": "^0.3.3",
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest",
+    "tailwind-merge": "^2.0.0",
+    "uuid": "^13.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "postcss-loader": "^8.2.1",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
